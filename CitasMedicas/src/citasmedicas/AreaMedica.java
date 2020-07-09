@@ -6,5 +6,5 @@ import citasmedicas.Doctor;
 public class AreaMedica {
 	protected String _especilidad;
 	protected float _costo;
-	public Vector<Doctor> _areas = new Vector<Doctor>();
+	public Vector<Doctor> doctores = new Vector<Doctor>();
 }

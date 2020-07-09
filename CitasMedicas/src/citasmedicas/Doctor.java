@@ -6,8 +6,9 @@ import citasmedicas.Cita;
 public class Doctor extends Persona {
 	protected int _regDoctor;
 	protected String _especialidad;
-	protected Vector<Cita> _doctor = new Vector<Cita>();
-	public AreaMedica _doctores;
+	protected Vector<Cita> citasPendientes = new Vector<Cita>();
+	protected AreaMedica areas;
+        protected Secretaria secretaria;
 
 	public void recetar() {
 		throw new UnsupportedOperationException();

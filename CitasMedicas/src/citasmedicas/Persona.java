@@ -10,7 +10,7 @@ public class Persona {
 	protected String _cedula;
 	protected String _dirección;
 	protected Date _fechaNac;
-	public Administrador _es_registrada;
+	protected Administrador registradoPor;
 
 	public boolean logIn() {
 		throw new UnsupportedOperationException();

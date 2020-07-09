@@ -6,5 +6,4 @@ public class Medicamento {
 	protected String _observaciones;
 	protected int _cantidadTotal;
 	protected String _unidad;
-	public Receta _medicamentos;
 }
