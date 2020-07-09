@@ -2,9 +2,10 @@ package citasmedicas;
 
 import java.util.Vector;
 import citasmedicas.Medicamento;
+import java.util.Date;
 
 public class Receta {
-	protected DateTime _fecha;
+	protected Date _fecha;
 	public Doctor _registra;
 	protected Paciente _recetas;
 	public Vector<Medicamento> _posee = new Vector<Medicamento>();

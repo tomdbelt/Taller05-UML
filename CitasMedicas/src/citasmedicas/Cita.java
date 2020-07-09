@@ -1,7 +1,9 @@
 package citasmedicas;
 
+import java.util.Date;
+
 public class Cita {
-	protected DateTime _fecha;
+	protected Date _fecha;
 	protected boolean _pagada;
 	protected String _registradoPor;
 	protected Doctor _citasPendientes;
